@@ -11,4 +11,3 @@ app.use("/api/user", user);
 app.listen(config.api.port, () => {
   console.log(`Listening http://localhost:${config.api.port}`);
 });
- 
